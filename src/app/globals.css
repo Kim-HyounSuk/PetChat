@@ -8,6 +8,45 @@
   /* === 폰트 패밀리 === */
   --font-sans: var(--font-pretendard);
 
+  /* === Point 컬러 팔레트 === */
+  --color-point-50: #eef0ff;
+  --color-point-100: #e6e9ff;
+  --color-point-200: #cdd4ff;
+  --color-point-300: #b4beff;
+  --color-point-400: #9ba8ff;
+  --color-point-500: #7486ff;
+  --color-point-600: #5266ec;
+  --color-point-700: #2a378b;
+  --color-point-800: #283168;
+  --color-point-900: #1a1d33;
+
+  /* === Gray 컬러 팔레트 === */
+  --color-gray-100: #f7f8fa;
+  --color-gray-200: #eaebed;
+  --color-gray-300: #cacdd2;
+  --color-gray-400: #9fa4a8;
+  --color-gray-500: #73787e;
+  --color-gray-600: #474c52;
+  --color-gray-700: #27282c;
+  --color-gray-800: #121316;
+  --color-gray-900: #0a0b0d;
+
+  /* === Warning 컬러 팔레트 */
+  --color-warning-100: #ffd8de;
+  --color-warning-200: #ffb2bd;
+  --color-warning-300: #ff657c;
+  --color-warning-400: #ff3e5b;
+  --color-warning-500: #992537;
+  --color-warning-600: #330c12;
+
+  /* === Success 컬러 팔레트 */
+  --color-success-100: #e7ffe3;
+  --color-success-200: #cfffc6;
+  --color-success-300: #b6ffaa;
+  --color-success-400: #5dee43;
+  --color-success-500: #36662d;
+  --color-success-600: #1b3317;
+
   /* === shadcn/ui 기본 색상 === */
   --color-sidebar-ring: var(--sidebar-ring);
   --color-sidebar-border: var(--sidebar-border);
@@ -54,8 +93,8 @@
 
   /* === 기본 스타일 변수 === */
   --radius: 0.625rem;
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.145 0 0);
+  --background: #eef0ff;
+  --foreground: #0a0b0d;
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.145 0 0);
   --popover: oklch(1 0 0);
@@ -98,8 +137,8 @@
 
 /* === 다크 모드 스타일 변수 === */
 .dark {
-  --background: oklch(0.145 0 0);
-  --foreground: oklch(0.985 0 0);
+  --background: #0a0b0d;
+  --foreground: #eef0ff;
   --card: oklch(0.205 0 0);
   --card-foreground: oklch(0.985 0 0);
   --popover: oklch(0.205 0 0);
