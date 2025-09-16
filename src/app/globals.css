@@ -47,6 +47,30 @@
   --color-success-500: #36662d;
   --color-success-600: #1b3317;
 
+  /* === 텍스트 사이즈 스케일 === */
+  --text-title-lg: 32px;
+  --text-title-lg--line-height: var(--line-height-relaxed);
+  --text-title-md: 28px;
+  --text-title-md--line-height: var(--line-height-relaxed);
+  --text-title-sm: 24px;
+  --text-title-sm--line-height: var(--line-height-relaxed);
+  --text-body-xl: 22px;
+  --text-body-xl--line-height: var(--line-height-relaxed);
+  --text-body-lg: 18px;
+  --text-body-lg--line-height: var(--line-height-base);
+  --text-body-md: 16px;
+  --text-body-md--line-height: var(--line-height-base);
+  --text-body-sm: 14px;
+  --text-body-sm--line-height: var(--line-height-base);
+  --text-label-lg: 12px;
+  --text-label-lg--line-height: var(--line-height-base);
+  --text-label-md: 10px;
+  --text-label-md--line-height: var(--line-height-base);
+  --text-label-sm: 8px;
+  --text-label-sm--line-height: var(--line-height-base);
+  --text-detail: 6px;
+  --text-detail--line-height: var(--line-height-base);
+
   /* === shadcn/ui 기본 색상 === */
   --color-sidebar-ring: var(--sidebar-ring);
   --color-sidebar-border: var(--sidebar-border);
@@ -90,6 +114,10 @@
   /* === 폰트 패밀리 변수 === */
   --font-pretendard:
     'Pretendard Variable', ui-sans-serif, system-ui, sans-serif;
+
+  /* === 폰트 Line-Height 스케일 변수 === */
+  --line-height-base: 1.25;
+  --line-height-relaxed: 1.5;
 
   /* === 기본 스타일 변수 === */
   --radius: 0.625rem;
